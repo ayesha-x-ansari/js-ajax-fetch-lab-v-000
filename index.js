@@ -1,5 +1,5 @@
 function getIssues() {
-  const repo = 'ayesha-x-ansari/js-templates-template-engines-readme-v-000'
+  const repo = 'ayesha-x-ansari/js-templates-template-engines-readme'
   //const repo = 'jshwa/javascript-fetch-lab'
 
 
