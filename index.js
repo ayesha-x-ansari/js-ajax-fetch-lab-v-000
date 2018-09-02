@@ -1,6 +1,5 @@
 function getIssues() {
-  //const repo = 'ayesha-x-ansari/js-templates-template-engines-readme'
-  const repo = 'jshwa/javascript-fetch-lab'
+  const repo = 'ayesha-x-ansari/js-templates-template-engines-readme'
 
 
   fetch(`https://api.github.com/repos/${repo}/issues`, {
@@ -17,7 +16,8 @@ function showIssues(json) {
 }
 
 function createIssue() {
-  const repo = 'jshwa/javascript-fetch-lab'
+  const repo = 'ayesha-x-ansari/js-templates-template-engines-readme'
+
   const postData = {
     "title": document.getElementById('title').value,
     "body": document.getElementById('body').value,
