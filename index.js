@@ -1,5 +1,6 @@
 function getIssues() {
-  const repo = 'jshwa/javascript-fetch-lab'
+  const repo = 'ayesha-x-ansari/js-templates-template-engines-readme-v-000'
+
   fetch(`https://api.github.com/repos/${repo}/issues`, {
     method: 'GET',
     headers: {
