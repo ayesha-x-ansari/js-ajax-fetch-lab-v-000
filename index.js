@@ -34,6 +34,7 @@ function createIssue() {
 
 function showResults(json) {
   console.log(json)
+  debugger
   $('#results').html(`<a href='${json.html_url}'>URL</a>`)
 }
 
