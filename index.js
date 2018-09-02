@@ -34,7 +34,6 @@ function createIssue() {
 
 function showResults(json) {
   console.log(json)
-  raise json.inspect
   $('#results').html(`<a href='${json.html_url}'>URL</a>`)
 }
 
